@@ -1,13 +1,10 @@
-
-
-function Counter({count, setCount}) {
-  
+function Counter() {
   return (
     <div className="counter">
       <h2>Counter</h2>
-      <h3>The count is - {count}</h3>
-      <button className='glassbutton' onClick={()=> setCount(count + 1)}>Increase</button>
-      <button onClick={()=> setCount(count - 1)}>Decrease</button>
+      <h3>The count is - 0</h3>
+      <button>Increase</button>
+      <button>Decrease</button>
     </div>
   );
 }
